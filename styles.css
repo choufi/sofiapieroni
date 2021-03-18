@@ -5,12 +5,12 @@ a {
 body {
   margin: 0;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #40514E;
 }
 
 h1 {
-  color: #66BFBF;
+  color: #ffb6b9;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
@@ -18,17 +18,24 @@ h1 {
 
 h2 {
   font-weight: normal;
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-top: 50px;
   font-size: 2.5rem;
-  color: #66BFBF;
+  color: #ffb6b9;
 }
 
 h3 {
   margin-top: 0;
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
-  color: #11999E;
+  color: #ffb6b9;
+}
+
+h4 {
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #ffb6b9;
 }
 
 hr {
@@ -42,10 +49,15 @@ hr {
   height: 25%;
 }
 
-.top-container {
-  background-color: #EAF6F6;
+.paisaje {
   position: relative;
-  padding: 100px;
+  width: 35%;
+}
+
+.top-container {
+  background-color: #fae3d9;
+  position: relative;
+  padding: 100px 100px none 100px;
 }
 
 .profile {
@@ -56,20 +68,8 @@ hr {
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #ffb6b9;
   padding: 50px;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 200px;
-  top: 50px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 200px;
-  bottom: 400px;
 }
 
 .skill-row {
@@ -79,35 +79,69 @@ hr {
   line-height: 2;
 }
 
-.vino {
+.argentina {
   float: left;
   margin-right: 30px;
   width: 25%;
 }
 
-.gato {
+.italia {
   float: right;
   margin-left: 30px;
   width: 25%;
 }
 
-.btn {
-  -webkit-border-radius: 14px;
-  -moz-border-radius: 14px;
-  border-radius: 14px;
-  color: #FFFFFF;
-  font-family: Arial;
-  font-size: 20px;
-  font-weight: 100;
-  padding: 10px;
-  background-color: #11999E;
+.espana {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.vino {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.gato {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.footer-link {
+  color: white;
   text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-  margin: 20px auto 20px auto;
+  padding: 20px;
+}
+
+.btn {
+   -webkit-border-radius: 25px;
+   -moz-border-radius: 25px;
+   border-radius: 25px;
+   color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #FFB6B9;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 40px;
+}
+
+.btn:hover {
+   background: #F5C0C0;
+   border: solid #FFFFFF 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
 
 .final {
+  font-size: 90%;
   color: #EAF6F6;
 }
